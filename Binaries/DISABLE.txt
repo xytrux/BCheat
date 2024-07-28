@@ -50,15 +50,13 @@ Set RPawnCombat bForceHeavyCounter false
 
 Set BmGame.RBMPawnAI bBatarangCanKill false (Batarang One Shot = false/false) 
 
-Set bmgame.rplayercontroller capeglideminspeed 600 (Infinite Glide = amount)
-
 Set RPawnPlayer CapeGlideGravity -1000 (Cape Gravity = amount)
 
 Set RPersistentDebugData Debug_PowerGlide false (Debug Power Glide = false/false)
 
 Set RPlayerController CapeGlideMaxSpeed 2200 (Glide Max Speed = amount)
 
-Set RPlayerController CapeGlideMinSpeed 50 (Glide Min Speed = amount)
+Set RPlayerController CapeGlideMinSpeed 600 (Glide Min Speed = amount)
 
 Set RPlayerController CapeGlideAccelRate 7000 (Glide Acceleration Rate = amount)
 
