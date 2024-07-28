@@ -1,0 +1,73 @@
+set R3rdPersonCamera WalkCamConfig (StateFreeCameraSitOffsetMin=(X=0.000000,Y=0.000000,Z=0.000000),StateFreeCameraSitOffsetMax=(X=0.000000,Y=0.000000,Z=0.000000),StateFreeCameraPullOffset=(X=-18.000000,Y=0.000000,Z=0.000000),CameraPivotOffset=(X=0.000000,Y=0.000000,Z=37.000000),ZoomedOffset=(X=0.000000,Y=0.000000,Z=100.000000),maxPitch=10500.000000,MinPitch=-16200.000000,MinFreeCameraDistance=250.000000,MaxFreeCameraDistance=300.000000")
+
+Set bmgame.rlevelvolume overridebatclawrange 9999 = (Batclaw range = range)    
+                    
+Set bmgame.rgrapplegun maxgrappleheight 9999 = (Grappleheight = range)      
+                       
+Set RDisruptorSniper MaxAmmo 999 = (Disruptor max ammo = amount)      
+                                      
+Set RDisruptorSniper Ammo 999 = (Disruptor ammo = amount)          
+                                    
+Set RDisruptorSniper iAntiEquipmentMaximumAmmo 999 (Disruptor anti-equipment maximum ammo = amount)   
+                      
+Set RDisruptorSniper iAntiEquipmentRemainingAmmo 999 (Disruptor anti-Equipment ammo = amount)      
+                   
+Set BmGame.RBMBehaviour_FreezeBlastHit bCantUnFreeze 1 = (Multiples enemies freeze = 1/0) (0 = off / 1 = on) 
+                   
+Set RExplosiveGelBomb bSuperComboThrow true = (Gel explosive super combo = true/false)   
+                             
+Set RMagneticBlastReceiver bSuperComboBlast True = (Magnectic blast super combo = true/false)         
+                 
+Set engine.playercontroller bgodmode true = (Infinity Life = true/false)                 
+                   
+Set BmGame.RCombatMove_BatmanCounter bShouldKill true = (Counter hit-kill = true/false)          
+           
+Set BmGame.RPersistentDebugData Debug_Combat_CanAlwaysTakedown 1 = (Infinity takedown = 1/0) (0 = off / 1 = on)   
+      
+Set BmGame.RPawnPlayerCombat bIncreasedCombatPower true = (Attack enemies with shield, electrified, and electric sticks without taking damage = true/false)        
+            
+Set BmGame.RPawnPlayerCombat bCanDoComboTakedownOnPredator true = (true/false)  
+         
+Set BmGame.RPersistentDebugData Debug_Combat_CanAlwaysDualPlay true = (Dual play always = true/false)
+      
+Set BmGame.RDmgType_Strike bAdvanceToFreeFlow 1 = (1/0) (0 = off / 1 = on)       
+                  
+Set BmGame.RRiotBrain bRiotWantsToFight true = (More bandits will attack you instead of running away = true/false)        
+                     
+Set BmGame.RDestructibleProp_FractureWall IsTakeDownWall 1  = (1/0) (0 = off / 1 = on) 
+               
+Set BmGame.RBMWeapon DropOnFirstHit 1  = (Enemies drop their weapons with 1 hit = 1/0) (0 = off / 1 = on) 
+
+Set BmGame.RBMCombatManager bDisableChargeAttack true = (Disable enemy charge attack = true/false)
+
+Set BmGame.RBMCombatManager bDisableMedicChargeUpThug true = (Medics won't electrify the bad guys in main campaign = true/false)
+
+Set BmGame.RVehicleBatmobileBase InfiniteBoost true = (Infinite boost = true/false)
+
+Set BmGame.RVehicleBatmobileBase CheatBatmobilePower 1 (Batmobile cheat's = 1/0) (0 = off / 1 = on)  
+
+Set RPawnCombat bForceHeavyCounter true
+
+Set BmGame.RBMPawnAI bBatarangCanKill true (Batarang One Shot = true/false) 
+
+Set bmgame.rplayercontroller capeglideminspeed 99 (Infinite Glide = amount)
+
+Set RPawnPlayer CapeGlideGravity -9000 (Cape Gravity = amount)
+
+Set RPersistentDebugData Debug_PowerGlide true (Debug Power Glide = true/false)
+
+Set RPlayerController CapeGlideMaxSpeed 3333 (Glide Max Speed = amount)
+
+Set RPlayerController CapeGlideMinSpeed 3333 (Glide Min Speed = amount)
+
+Set RPlayerController CapeGlideAccelRate 3333 (Glide Acceleration Rate = amount)
+
+Set RPersistentDebugData Debug_UseNormalGlideAccelDecel true (Normal Glide Acceleration or Deceleration = true/false)
+
+Set RPawnPlayer MinGrappleSpeed 55555 (Min Grapple Gun Speed = amount)
+
+Set RPawnPlayer MaxGrappleSpeed 55555 (Max Grapple Gun Speed = amount)
+
+LoadPC Playable_Batman
+
+savegamehere
